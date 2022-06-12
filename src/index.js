@@ -148,7 +148,7 @@
 //スプレッド構文を使って配列をコピーしないと、値を代入したときに参照元のデータまで上書きされてしまう
 
 /**mapやfilterの配列処理 */
-const nameArr = ["田中", "山田", "じゃけぇ"]; //配列をループしてそれぞれの名前を処理したい時、これまではfor文だった
+// const nameArr = ["田中", "山田", "じゃけぇ"]; //配列をループしてそれぞれの名前を処理したい時、これまではfor文だった
 // for (let index = 0; index < nameArr.length; index++) {
 //   //（第一引数に、何回目の処理かを管理するindex; 第二引数にループを終了させる条件; 第三引数に１回のループが終わるごとにindexを加算の処理）
 //   console.log(nameArr[index]); //nameArrの長さ分だけ左の処理がループして、indexに値が入ることになる
@@ -223,12 +223,12 @@ const nameArr = ["田中", "山田", "じゃけぇ"]; //配列をループして
  * &&と||について（かつとまたはではない！）
  */
 
-const num = null;
-const fee = num || "金額未設定です";
-console.log(fee);
-//　||　の本来の意味は、左側がfalseなら右を返す（nullはJSではfalse判定）
+// const num = null;
+// const fee = num || "金額未設定です";
+// console.log(fee);
+// //　||　の本来の意味は、左側がfalseなら右を返す（nullはJSではfalse判定）
 
-const num2 = null;
-const fee2 = num2 && "何か設定されました";
-console.log(fee2);
+// const num2 = null;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2);
 //　&&は、左側がtrueなら右を返す（nullはJSではfalse判定）
